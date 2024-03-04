@@ -29,8 +29,12 @@ jobs:
       - name: Run generate.py
         run: python generator.py
 
+      - name: Zip folders
+        run: |
+          for d in */; do zip -r "${d%/}.zip" "$d"; done
+
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
           files: |
-            **/*.py
+            *.zip
