@@ -24,7 +24,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run generate.py
-        run: python generate.py
+        run: python generator.py
 
       - name: Release
         uses: softprops/action-gh-release@v1
