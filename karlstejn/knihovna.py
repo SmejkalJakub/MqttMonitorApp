@@ -13,14 +13,14 @@ import time
 import psutil
 from ctypes import windll, c_ulong, byref
 
-deviceName = DEVICE_NAME
-mqttBrokerTopic = MQTT_BROKER_TOPIC
-mqttBrokerIP = MQTT_BROKER_IP
-mqttBrokerPort = MQTT_BROKER_PORT
+deviceName = "tablet/knihovna"
+mqttBrokerTopic = "building/karlstejn/device/status"
+mqttBrokerIP = "192.168.1.105"
+mqttBrokerPort = 1883
 topicSubscribe = deviceName + "/#"
 
-app_path = APP_PATH
-app_name = APP_NAME
+app_path = "F:\\OneDrive\\Desktop\\OverlookTestCloud\\Overlook.exe"
+app_name = "Overlook.exe"
 
 mqttClient = None
 
