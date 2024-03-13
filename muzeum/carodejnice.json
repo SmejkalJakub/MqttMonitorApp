@@ -1,0 +1,8 @@
+{
+    "DEVICE_NAME": "\"tablet/carodejnice\"",
+    "MQTT_BROKER_TOPIC": "\"building/muzeum/device/status\"",
+    "MQTT_BROKER_IP": "\"192.168.1.105\"",
+    "MQTT_BROKER_PORT": "1883",
+    "APP_PATH": "\"F:\\\\\\\\OneDrive\\\\\\\\Desktop\\\\\\\\OverlookTestCloud\\\\\\\\Overlook.exe\"",
+    "APP_NAME": "\"Carodejnice.exe\""
+}
